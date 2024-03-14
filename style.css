@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+}
+.title{
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: cursive;
+    position: relative;
+    top: 40px;
+}
+.container{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    box-shadow: 4px 4px 10px black;
+    margin: auto; /* for Horizontally center*/
+    transform: translateY(20%); /* 30% from Y-axis*/
+}
+.slides{
+    position: absolute;
+    left: 0;
+}
+.slides img{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+}
+.icon{
+    position: absolute;
+    top:45%;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.icon:hover{
+    opacity: 0.7;
+}

@@ -42,9 +42,13 @@ body {
 }
 .left{
     left: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 .right{
     right: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 .icon:hover{
     opacity: 0.7;
